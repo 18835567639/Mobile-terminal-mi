@@ -1,0 +1,262 @@
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 2.12rem;
+	background: #f2f2f2;
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+}
+.head1{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0.3rem 0 0.3rem;
+	box-sizing: border-box;
+}
+.head1>div:nth-child(1){
+	width: 0.9rem;
+	height: 0.9rem;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: #ff6700;
+}
+.head1>div:nth-child(2){
+	width: 7.74rem;
+	height: 0.9rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+}
+.head1>div:nth-child(3){
+	width: 0.9rem;
+	height: 0.9rem;
+	font-size: 0.56rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.sousuo{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	color: #b4b4b4;
+	display: flex;
+	align-items: center;
+}
+.sousuo>i{
+	padding: 0.1rem 0.3rem 0 0.3rem;
+}
+.head2{
+	width: 100%;
+	height: 0.92red;
+	display: flex;
+	align-items: flex-end;
+	padding-top: 0.25rem;
+}
+.head2-1{
+	width: 9.1rem;
+	height: 0.35rem;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.head2-1::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.head2-1>ul{
+	width: 300%;
+	height: 100%;
+	font-size: 0.32rem;
+	color: #7f7f7f;
+	display: flex;
+	align-items: center;
+	margin-left: 0.4rem;
+	
+}
+.head2-1>ul>li{
+	margin: 0 0.8rem 0 0.8rem;
+}
+.head2-1>ul>li:first-child{
+	margin-left: 0;
+}
+.head2-2{
+	width: 0.33rem;
+	height: 0.35rem;
+	font-size: 0.33rem;
+	color: #bababa;
+	display: flex;
+	align-items:flex-end;
+	padding-left: 0.65rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 5.37rem;
+	padding-top: 2.12rem;
+	overflow: hidden;
+	position: relative;
+}
+.banner>ul{
+	width: 300%;
+	height: 100%;
+	background: black;
+	display: flex;
+}
+.banner>ul>li{
+	width: 33.3333%;
+	height: 100%;
+}
+.banner>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.bannerdian{
+	width: 1.23rem;
+	height: 0.23rem;
+	position: absolute;
+	bottom: 0.36rem;
+	left: 4.785rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bannerdian>div{
+	width: 0.23rem;
+	height: 0.23rem;
+	border-radius: 50%;
+}
+.bannerdian>div:nth-child(1){
+	background: #fff;
+}
+.bannerdian>div:nth-child(2){
+	background: rgba(255,255,255,0.2);
+}
+.bannerdian>div:nth-child(3){
+	background: rgba(255,255,255,0.2);
+}
+/* banner结束 */
+/* 菜单开始 */
+.menu{
+	width: 100%;
+	height: 4.57rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu>div{
+	width: 20%;
+	height: 50%;
+}
+.menu>div img{
+	width: 100%;
+	height: 100%;
+}
+/* 菜单结束 */
+.menu-bottom{
+	width: 100%;
+	height: 7.62rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.24rem;
+}
+.menu-bottom img{
+	width: 100%;
+	height: 100%;
+}
+.menu-bottom1{
+	width: 49.5%;
+	height: 100%;
+}
+.menu-bottom2{
+	width: 49.5%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.menu-bottom2>div{
+	height: 49.5%;
+	width: 100%;
+	background: #FF0000;
+}
+.Advertisement{
+	width: 100%;
+	height: 4.21rem;
+	margin-top: 0.25rem;
+}
+.Advertisement img{
+	width: 100%;
+	height: 100%;
+}
+.Advertisement2{
+	width: 100%;
+	height: 6.6rem;
+	margin-top: 0.25rem;
+}
+.Advertisement2 img{
+	width: 100%;
+	height: 100%;
+}
+.commodity{
+	width: 100%;
+	height: 7.3rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.05rem;
+}
+.commodity>div{
+	width: 49.5%;
+	height: 7.3rem;
+}
+.commodity1-1{
+	width: 100%;
+	height: 5.38rem;
+}
+.commodity1-1>img{
+	width: 100%;
+	height: 100%;
+}
+.commodity1-2{
+	width: 100%;
+	height: calc(7.3rem - 5.38rem);
+}
+.commodity1-2s{
+	height: 1.45rem;
+	width: calc(100% - 0.8rem);
+	margin: 0.32rem 0.4rem 0 0.4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.commodity1-2s>div:nth-child(1){
+	font-size: 0.37rem;
+	color: #141414;
+}
+.commodity1-2s>div:nth-child(2){
+	font-size: 0.3rem;
+	color: #707070;
+}
+.commodity1-2ss>div:first-child{
+	font-size: 0.3rem;
+	color: #ff6700;
+	margin-top: 0;
+}
+.commodity1-2ss>div:last-child{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.commodity1-2ss{
+	display: flex;
+	align-items: flex-end;
+}
+.gengduo{
+	width: 100%;
+	height: 1.51rem;
+	border-top:0.02rem solid #cecece ;
+	font-size: 0.37rem;
+	color: #565656;
+	line-height: 1.51rem;
+	text-align: center;
+}
