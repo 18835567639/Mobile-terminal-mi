@@ -4,11 +4,16 @@
 	box-shadow: 0 -0.01rem 0.1rem 0.01rem rgba(0,0,0,0.1);
 	display: flex;
 	box-sizing: border-box;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999;
 }
 .bottom>a{
 	width: 25%;
 	height: 100%;
 	display: block;
+	display: flex;
 }
 .bottom>a>div:first-child{
 	height: 0.75rem;
