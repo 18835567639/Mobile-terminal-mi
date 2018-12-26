@@ -13,7 +13,6 @@
 	width: 25%;
 	height: 100%;
 	display: block;
-	display: flex;
 }
 .bottom>a>div:first-child{
 	height: 0.75rem;
