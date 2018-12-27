@@ -31,7 +31,7 @@ ul,li{
 	clear: both;
 }
 .room{
-	max-width: 640;
+	max-width: 640px;
 	margin: 0 auto;
 	position: relative;
 }
