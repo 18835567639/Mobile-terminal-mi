@@ -22,8 +22,12 @@
 	margin: 0 0.25rem 0 0.5rem;
 }
 .top>div>div:last-child{
-	color: #fff;
 	font-size: 0.4rem;
+
+	}
+.top>div>div:last-child>a{
+	color: #fff;
+
 }
 .top>div>div:first-child>img{
 	height: 1.3rem;
@@ -40,6 +44,7 @@
 .order>div{
 	padding: 0 0.5rem;
 	font-size: 0.4rem;
+	color: #000000;
 }
 .order2>i{
 	color: #898989;
