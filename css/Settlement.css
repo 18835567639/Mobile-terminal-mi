@@ -1,0 +1,149 @@
+.bottom{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 -0.01rem 0.1rem 0.01rem rgba(0,0,0,0.1);
+	display: flex;
+	box-sizing: border-box;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999;
+}
+.bottom>a{
+	width: 50%;
+	height: 100%;
+}
+.bottom>a:nth-child(1){
+	font-size: 0.38rem;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+}
+.bottom>a:nth-child(1)>span:first-child{
+	font-size: 0.42rem;
+	color: #ff6700;
+}
+.bottom>a:nth-child(1)>span:last-child{
+	font-size: 0.38rem;
+	color: #ff6700;
+	font-weight: 700;
+}
+.bottom>a:nth-child(2){
+	font-size: 0.38rem;
+	color: #FFFFFF;
+	background: #ff6700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dizhi{
+	width: 100%;
+	height: 2.3rem;
+	background: #fff url(//s1.mi.com/m/images/m/bd1.png)no-repeat center 0/100% 0.12rem;
+	margin-top: 1.5rem;
+}
+.dizhi1{
+	width: 100%;
+	height: 100%;
+	padding: 0.55rem 0.4rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #000000;
+	position: relative;
+}
+.dizhi1a{
+	width: 100%;
+	height: 0.45rem;
+	display: flex;
+	align-items: center;
+}
+.dizhi1a>span:first-child{
+	font-size: 0.45rem;
+	font-weight: 700;
+	line-height: 0.45rem;
+}
+.dizhi1a>span:last-child{
+	font-size: 0.35rem;
+	font-weight: 700;
+}
+.dizhi1b{
+	font-size: 0.35rem;
+	color: #767676;
+}
+.dizhi1>i{
+	font-size: 0.4rem;
+	color: #3d3d3d;
+	position: absolute;
+	top: 0.95rem;
+	right: 0.4rem;
+}
+.huitiao{
+	width: 100%;
+	height: 0.3rem;
+	background: #f5f5f5;
+	border-bottom: 0.03rem solid #e0e0e0;
+	border-top: 0.03rem solid #e0e0e0;
+}
+.fangshi{
+	width: 100%;
+	height: 10.82rem;
+	border-bottom: 0.03rem solid #e0e0e0;
+}
+.fangshis{
+	width: 100%;
+	height: 100%;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+}
+.fangshis>div{
+	width: 100%;
+	height: 12.5%;
+	border-bottom: 0.03rem solid #e0e0e0;
+	box-sizing: border-box;
+}
+.fangshis>div:last-child{
+	border: none;
+}
+.fangshi1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fangshi1a{
+	display: flex;
+	align-items: center;
+}
+.fangshi1a>img{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+.fangshi1a>span{
+	font-size: 0.38rem;
+	color: #272727;
+	padding-left: 0.34rem;
+}
+.fangshi2{
+	font-size: 0.35rem;
+	color: #b8b8b8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.xuanfu{
+	width: 100%;
+	height: 0.8rem;
+	background: #fcf7d7;
+	position: fixed;
+	left: 0;
+	bottom: 1.4rem;
+	padding: 0 0.32rem;
+	box-sizing: border-box;
+	font-size: 0.32rem;
+	color: #b19f7b;
+	line-height: 0.8rem;
+}
